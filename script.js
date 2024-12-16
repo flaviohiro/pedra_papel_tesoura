@@ -40,6 +40,7 @@ function jogar(){
     } else {
         alert("Selecione Pedra, Papel ou Tesoura ");
     }
+    indice=0;
 }
 
 function tesoura(){
