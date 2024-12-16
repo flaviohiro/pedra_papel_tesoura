@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-color: rgb(195, 187, 187);
+}
+div#divPrincipal{
+    width: 450px;
+    height: 350px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    align-items: center;
+}
+
+div#divJogar{
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+input#botaoJogar{
+   
+    border-radius: 10px;
+    font-size: 25px;
+    width:150px;
+    height: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+div#box{
+    width: 300px;
+    height: 150px;
+}
+
+div#divTresInput{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+    right:48px;
+    width: 400px;
+}
+
+input#selectPedra{
+    margin-right: 30px;
+}
+
+input#selectTesoura{
+    margin-left: 30px;
+}
+
+input#selectPapel, #selectTesoura,#selectPedra{
+    width:130px;
+    height: 70px;
+    font-size: larger;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family:  "Roboto Condensed", sans-serif;
+}
+
+div#teste{
+    color:rgb(27, 83, 95)
+}
+
+
